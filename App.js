@@ -26,6 +26,7 @@ import HomeStack from './navigations/HomeStack';
 import { NavigationContainer } from '@react-navigation/native';
 import BottomTab from './navigations/BottomTab';
 import RootStack from './navigations/RootStack';
+import ChartKitScreen from './screens/week5/ChartKitScreen';
 
 export default function App() {
   return (
@@ -52,6 +53,7 @@ export default function App() {
       {/* <BottomTab /> */}
       <RootStack />
     </NavigationContainer>
+    // <ChartKitScreen />
 
   );
 }
